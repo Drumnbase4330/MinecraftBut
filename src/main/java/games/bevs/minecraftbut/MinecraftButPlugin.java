@@ -71,16 +71,14 @@ public class MinecraftButPlugin extends JavaPlugin
 		this.scenerarioManager.registerSenerario(new ShrinkingInventory(butWorld));
 		this.scenerarioManager.registerSenerario(new MobsMultiple(butWorld));
 		this.scenerarioManager.registerSenerario(new SunDeath(butWorld));
+ok]
 
 
-
-		if(minecraft18)
 		{
 			this.scenerarioManager.registerSenerario(new MathOrStop(butWorld));
 			this.scenerarioManager.registerSenerario(new AnvilRain(butWorld));
 			this.scenerarioManager.registerSenerario(new LinkedInventories(butWorld));
 		}
-	}
 	
 	private CommandMap getCommandMap()
 	{
